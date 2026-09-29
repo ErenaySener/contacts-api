@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-hw-mongodb",
+  "name": "contacts-api",
   "version": "1.0.0",
-  "description": "",
+  "description": ""description": "RESTful Contacts API with authentication, session management, MongoDB, validation, pagination and filtering."",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ErenaySener/nodejs-hw-mongodb.git"
+    "url": "git+https://github.com/ErenaySener/contacts-api.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ErenaySener/nodejs-hw-mongodb/issues"
+    "url": "https://github.com/ErenaySener/contacts-api/issues"
   },
-  "homepage": "https://github.com/ErenaySener/nodejs-hw-mongodb#readme",
+  "homepage": "https://github.com/ErenaySener/contacts-api#readme",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
