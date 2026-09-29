@@ -1,13 +1,13 @@
 import { Contact } from '../db/models/contact.js';
 
-export const getAllContacts = async(
+export const getAllContacts = async ({
   page = 1,
   perPage = 10,
   sortBy = 'name',
   sortOrder = 'asc',
   filters = {},
   userId,
-) => {
+}) => {
   const skip = (page - 1) * perPage;
   const query = {
   ...filters,
