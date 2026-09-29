@@ -1,7 +1,7 @@
 {
   "name": "contacts-api",
   "version": "1.0.0",
-  "description": ""description": "RESTful Contacts API with authentication, session management, MongoDB, validation, pagination and filtering."",
+  "description": "RESTful Contacts API with authentication, session management, MongoDB, validation, pagination and filtering."",
   "main": "index.js",
   "type": "module",
   "scripts": {
